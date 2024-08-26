@@ -14,7 +14,7 @@ import { GlobalStyles } from 'styles/GlobalStyles';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-  <BrowserRouter basename="/project_blackout">
+  <BrowserRouter basename="/goit-expenses-tracker">
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <App />
